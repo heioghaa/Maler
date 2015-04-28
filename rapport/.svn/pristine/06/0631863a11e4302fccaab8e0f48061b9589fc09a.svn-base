@@ -1,6 +1,0 @@
-\begin{figure}
-	\centering
-	\includegraphics[width=0.8\textwidth]{Pictures/polezeroA-BK.eps}
-	\caption{Pole-zero plot of $A-BK$}
-	\label{fig:pzA-BK}
-\end{figure}
