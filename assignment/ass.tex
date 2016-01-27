@@ -1,0 +1,34 @@
+\documentclass{article}
+
+% vim: spell spelllang=en_gb
+
+%Packages
+\usepackage{graphicx}
+
+%Custom section headings
+\makeatletter
+% we use \prefix@<level> only if it is defined
+\renewcommand{\@seccntformat}[1]{%
+  \ifcsname prefix@#1\endcsname
+    \csname prefix@#1\endcsname
+  \else
+    \csname the#1\endcsname\quad
+  \fi}
+% define \prefix@section
+\newcommand\prefix@section{Problem \thesection: }
+\makeatother
+
+% Use below command to include pictures
+% \includegraphics[width=0.75\linewidth]{filename}
+
+\begin{document}
+\title{AAA1234 Assignment 1}
+\author{Aaaa Bbbbbbb}
+
+\maketitle
+
+\section{Yaddi}
+
+\section{Yodi)}
+
+\end{document}
